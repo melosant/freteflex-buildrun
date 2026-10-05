@@ -7,6 +7,7 @@ import tech.buildrun.freteflex.domain.StandartShippingCalculator;
 @Service
 public class ShippingCalculatorService {
 
+    // princícios de DI e IoC
     private final StandartShippingCalculator standartShippingCalculator;
     private final ExpressShippingCalculator expressShippingCalculator;
 

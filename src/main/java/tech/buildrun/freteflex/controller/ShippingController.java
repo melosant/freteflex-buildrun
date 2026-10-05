@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 import tech.buildrun.freteflex.controller.dto.ShippingResponse;
 import tech.buildrun.freteflex.service.ShippingCalculatorService;
 
+/*
+@RequestParam -> indica que haverá parâmetros na url
+*/
 @RestController
 public class ShippingController {
 
