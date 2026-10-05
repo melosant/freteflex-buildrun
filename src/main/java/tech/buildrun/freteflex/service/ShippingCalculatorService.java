@@ -14,8 +14,8 @@ public class ShippingCalculatorService {
     private final ShippingCalculator standartShippingCalculator;
     private final ShippingCalculator expressShippingCalculator;
 
-    public ShippingCalculatorService(@Qualifier("standartShippingCalculator") StandartShippingCalculator standartShippingCalculator,
-                                     @Qualifier("expressShippingCalculator") ExpressShippingCalculator expressShippingCalculator) {
+    public ShippingCalculatorService(@Qualifier("standartShippingCalculator") ShippingCalculator standartShippingCalculator,
+                                     @Qualifier("expressShippingCalculator") ShippingCalculator expressShippingCalculator) {
         this.standartShippingCalculator = standartShippingCalculator;
         this.expressShippingCalculator = expressShippingCalculator;
     }
