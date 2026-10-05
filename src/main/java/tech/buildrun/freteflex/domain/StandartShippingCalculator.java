@@ -3,7 +3,7 @@ package tech.buildrun.freteflex.domain;
 import org.springframework.stereotype.Component;
 
 // @Component -> indica que esta classe é um Bean para ser gerenciado pelo Spring
-@Component
+@Component("standartShippingCalculator")
 public class StandartShippingCalculator implements ShippingCalculator {
 
     @Override
